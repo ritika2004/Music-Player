@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/login.css" />
+  </head>
+  <body>
+    <body>
+      <section class="container">
+        <div class="login-container">
+          <div class="circle circle-one"></div>
+          <div class="form-container">
+            <h1 class="opacity">LOGIN</h1>
+            <form action="/login" method="post">
+              <!-- <input type="text" placeholder="USERNAME" id="username" name="name"/> -->
+              <input
+                type="email"
+                placeholder="EMAIL"
+                id="emailid"
+                name="email"
+              />
+              <input
+                type="password"
+                placeholder="PASSWORD"
+                id="password"
+                name="password"
+              />
+              <button class="opacity" type="submit">SUBMIT</button>
+            </form>
+            <p style="margin-left: 50px">Don't Have an account?</p>
+            <div class="register-forget opacity">
+              <!-- <br /> -->
+              <a href="/register" style="margin-left: 89px; font-size: 1.4rem"
+                >REGISTER</a
+              >
+            </div>
+          </div>
+          <div class="circle circle-two"></div>
+        </div>
+        <div class="theme-btn-container"></div>
+      </section>
+    </body>
+    <script src="/js/login.js"></script>
+  </body>
+</html>
