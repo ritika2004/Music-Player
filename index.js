@@ -9,7 +9,6 @@ const songRoutes = require("./routes/songs");
 const { authenticate } = require("./public/js/authMiddleware.js");
 app.use(bodyParser.json());
 app.use(cookieParser());
-
 const mongoose = require("mongoose");
 
 const Song = require("./models/Song");
