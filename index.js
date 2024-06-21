@@ -60,7 +60,7 @@ app.get("/alert", (req, res) => {
   res.render("alert");
 });
 
-const port = 8080;
+const port = 8000;
 app.listen(port, () => {
   console.log(`server at https://localhost:${port}`);
 });
